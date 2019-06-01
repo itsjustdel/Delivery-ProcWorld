@@ -1,0 +1,29 @@
+UNITY CAR GAMEV1 IS A DEV PROJECT BASED ON (edys physx script)
+ripped by uploader '(HICHAM NB) 
+
+--------------- ----INSTALLITION-------------------------
+
+1-CREAT new project IN UNITY 3D
+
+2-IMPORT THE UNITY PACKAGE IN TO IT 
+    **WHEN IT DONE DONT PLAY**
+
+2-MOVE (InputManager.asset)  into (ProjectSettings) folder with the existed one.
+    **this step fixes the camera 3RD view**
+
+3-IN UNITY DBCLICK THE (UNITY CAR GAME) file
+
+4-play and enjoy the rap
+
+5-press c to change the camera view
+
+
+------------------KNOWN BUGS-----------------------------
+WHEN YOU PLAY THE GAME IN UNITY THERE IS AN OVER BRIGHTNESS
+ 
+TO FIX IT SIMPLY you have to go to **edit **project settings **player and change color space to linear IN THE OTHER SETTINGS TAB.
+
+*SORRY I COULDNT MAKE IT DEFAULT* 
+
+
+

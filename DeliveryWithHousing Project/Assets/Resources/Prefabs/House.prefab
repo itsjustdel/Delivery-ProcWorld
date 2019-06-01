@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 448166}
+  - component: {fileID: 6519742}
+  - component: {fileID: 5470360}
+  - component: {fileID: 11494196}
+  - component: {fileID: 11411716}
+  - component: {fileID: 11498376}
+  - component: {fileID: 11470246}
+  - component: {fileID: 11408754}
+  - component: {fileID: 11452074}
+  - component: {fileID: 11478330}
+  - component: {fileID: 2385812}
+  - component: {fileID: 11412448}
+  - component: {fileID: 11457104}
+  - component: {fileID: 11485204}
+  m_Layer: 0
+  m_Name: House
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &448166
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 392, y: 5.1, z: 93}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2385812
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!54 &5470360
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 2
+--- !u!65 &6519742
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 5, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11408754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc010ca7228dc264ea7c45b08da8356b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11411716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d4474d18c9033438e437490b556a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11412448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c7e593d243a374191652e833455ee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11452074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876da575f278a8743925d4674006755a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11457104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431b4737556ae0941bf451a1de771f42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11470246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16fbe7aa869e7f943bfd1dd9da84e3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11478330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6fb5c94c88ad243bdb0ec29ca1ceda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11485204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28cb85e5503e9b6419ca08c993d54134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11494196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0958885ac23bb640b57a6e7131f5d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  body:
+    windowAmount: 2
+    doorsAmount: 0
+    Height: 5
+    Width: 10
+    Length: 5
+    RoofHeight: 1
+    RoofOverhangSide: 0
+    RoofOverhangFront: 0
+    RoofBias: 1
+    lookRot: {x: 0, y: 0, z: 0, w: 0}
+    bricksX: 1
+    bricksY: 1
+    bricksZ: 1
+    bricksDepth: 0.02
+    brickSeperation: 0.02
+    brickBreakForce: 3000
+  window:
+    windowSize: 15
+    strutWidth: 0.05
+    strutDepth: 0.1
+    amountOfPanesX: 3
+    amountOfPanesY: 2
+    position: {x: 0, y: 0, z: 0}
+    windowOffset: 0.25
+  tiles:
+    tilesX: 2
+    tilesY: 2
+    maxTilt: 1
+    slant: 10000
+    XSpin: 1
+    YSpin: 1
+    ZSpin: 1
+  bricks:
+    brickSizeX: 0.5
+    brickSizeY: 0.25
+    brickSizeZ: 0.25
+    brickAmtX: 20
+    brickAmtY: 10
+    brickAmtZ: 10
+--- !u!114 &11498376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105736}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee17a9764fcf46408f9dcdebafa238b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 105736}
+  m_IsPrefabParent: 1

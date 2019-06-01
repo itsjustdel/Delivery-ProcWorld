@@ -1,0 +1,579 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &168406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 460940}
+  - component: {fileID: 11473916}
+  - component: {fileID: 11430814}
+  - component: {fileID: 11461834}
+  - component: {fileID: 11401808}
+  - component: {fileID: 11476480}
+  - component: {fileID: 11437082}
+  - component: {fileID: 11406638}
+  - component: {fileID: 11441428}
+  - component: {fileID: 11437846}
+  - component: {fileID: 11485302}
+  - component: {fileID: 11444002}
+  - component: {fileID: 11469384}
+  - component: {fileID: 11430818}
+  - component: {fileID: 3345518}
+  - component: {fileID: 2393056}
+  - component: {fileID: 6452450}
+  m_Layer: 0
+  m_Name: Aroad2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460940
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 900, y: 0, z: 500}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2393056
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &3345518
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Mesh: {fileID: 0}
+--- !u!64 &6452450
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
+--- !u!114 &11401808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b38b8d6ff60b941b557c989eaeafba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: []
+  PathType: 0
+  JS: 0
+  bRoadMesher: {fileID: 11437082}
+  target: {x: 0, y: 0, z: 0}
+  mesh: {fileID: 0}
+  cube: {fileID: 0}
+  placeCubes: 0
+  findPoint: 0
+  mainRoad: 1
+--- !u!114 &11406638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e245ebaefc030f04581a1dba1554d6a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11430814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4166ddfb7784a14886738e9917a6663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 0}
+  pathfinder: {fileID: 11461834}
+  mesh: {fileID: 0}
+  closestPoint: {x: 0, y: 0, z: 0}
+  path: []
+--- !u!114 &11430818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c09e38f7faee18242a537b3093493196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HouseDensity: 300
+  treeFrequency: 10
+  bushFrequency: 3
+  frequency: 1000
+  kerbMesh: {fileID: 0}
+  placeBush: 1
+  placeTree: 0
+  placeHouse: 1
+  bushPrefab: {fileID: 464424, guid: eeb15d9c49f848a409289e34834e1af2, type: 2}
+  treePrefab: {fileID: 479644, guid: 9b4de78851819714789a187270d331a9, type: 2}
+  housePrefab: {fileID: 437838, guid: f2ede741632f1eb4eb474cd406ffaf00, type: 2}
+  isConnectingRoad: 1
+  frequencyMultiplier: 0.5
+--- !u!114 &11437082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157f22719f13d734cae09e5a6db614b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathFull: []
+  frequency: 500
+  junctionFrequency: 500
+  bRoadWidth: 2
+  raiseAmt: 1
+  bezier: {fileID: 11476480}
+  p1: {x: 0, y: 0, z: 0}
+  p2: {x: 0, y: 0, z: 0}
+  cube: {fileID: 454216, guid: 9adbe90f09d3b034a8cf41245a0f1074, type: 2}
+  bR: {fileID: 11401808}
+  targetRoadPoints: []
+  closestInd: 0
+  startInd: 0
+  junctionWidth: 6
+  myLayerMask:
+    m_Bits: 1024
+  verge: {fileID: 0}
+  splineL: {fileID: 0}
+  splineR: {fileID: 0}
+  mainRoad: 1
+--- !u!114 &11437846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7d612d43df01d48911046eec8fa3e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  houseAmt: 10
+  bRoadMesher: {fileID: 11437082}
+  house: {fileID: 437838, guid: f2ede741632f1eb4eb474cd406ffaf00, type: 2}
+  closestInd: 0
+  middle: {x: 0, y: 0, z: 0}
+  kerbPrefab: {fileID: 454216, guid: 9adbe90f09d3b034a8cf41245a0f1074, type: 2}
+  pavementLength: 200
+  kerbSizeX: 0.5
+  kerbSizeY: 0.2
+  pavementDepth: 20
+  placeHouses: 0
+  hV: {fileID: 0}
+--- !u!114 &11441428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f08f0ae0220f9438cfff0b83727826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forRingRoad: 0
+  myLayerMask:
+    m_Bits: 2048
+  cubePrefab: {fileID: 0}
+  frequency: 5000
+  doCubes: 0
+  xSize: 5000
+  ySize: 5
+  yScaler: 0.5
+  lastRowListLeft: []
+  lastRowListRight: []
+  finished: 0
+--- !u!114 &11444002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2ff86736d0ec748a83a485da5953b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  houseAmt: 3
+  house: {fileID: 478012, guid: 76439ae8ce3868040927c1dfa3ce118a, type: 2}
+  bRoadMesher: {fileID: 11437082}
+--- !u!114 &11461834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4acf42fa4d81a498faec7fa36593cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addTransformPosition: 0
+  curveInj: {fileID: 0}
+  bRoadMesher: {fileID: 11437082}
+  TerrainPrefab: {fileID: 0}
+  canReplaceTerrain: 0
+  Tilesize: 5
+  MaxFalldownHeight: 3
+  ClimbLimit: 3
+  HeuristicAggression: 10
+  HighestPoint: 500
+  LowestPoint: -500
+  MapStartPosition: {x: -2000, y: -2000}
+  MapEndPosition: {x: 2000, y: 2000}
+  onlyAllowOwnGameObject: 0
+  DisallowedTags:
+  - Road
+  IgnoreTags: []
+  MoveDiagonal: 1
+  DrawMapInEditor: 0
+  CheckFullTileSize: 1
+--- !u!114 &11469384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aab7b08e6da76d48bfd6cf0e2e8ea06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isJoiningRoad: 1
+  xSize: 200
+  ySize: 200
+  scaleAmt: 0.1
+  planeFrequency: 1000
+  myLayerMask:
+    m_Bits: 512
+  myLayerMask2:
+    m_Bits: 1024
+  myLayerMask3:
+    m_Bits: 2048
+  scriptFinished: 0
+  frequencyMultiplier: 0.5
+--- !u!114 &11473916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64537e8df3c637942b6ba0c5353cc916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHouse: 0
+  housePlacement: {fileID: 11430814}
+  pathfinder: {fileID: 11461834}
+  bRoadPlotter: {fileID: 11401808}
+  bRoadMesher: {fileID: 11437082}
+  verge: {fileID: 11441428}
+  terrainPlanes: {fileID: 11469384}
+  tJunctionBuildings: {fileID: 11437846}
+  buildingsAlongCurve: {fileID: 11444002}
+  placeAlongVerge: {fileID: 11430818}
+  meshGenerator: {fileID: 0}
+--- !u!114 &11476480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: 3, y: 0, z: 0}
+  - {x: 4, y: 0, z: 0}
+  modes: 0000000000000000
+  loop: 0
+--- !u!114 &11485302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de84fa1871ba9344abca1113d69b81c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  van: {fileID: 176000, guid: 6040df82b702f9e4d9d2400846edc472, type: 2}
+  tJunctionBuildings: {fileID: 11437846}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: IgnoreTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DisallowedTags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: verge
+      value: 
+      objectReference: {fileID: 11441428}
+    - target: {fileID: 0}
+      propertyPath: terrainPlanes
+      value: 
+      objectReference: {fileID: 11469384}
+    - target: {fileID: 0}
+      propertyPath: house
+      value: 
+      objectReference: {fileID: 437838, guid: f2ede741632f1eb4eb474cd406ffaf00, type: 2}
+    - target: {fileID: 0}
+      propertyPath: isConnectingRoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: placeAlongVerge
+      value: 
+      objectReference: {fileID: 11430818}
+    - target: {fileID: 0}
+      propertyPath: bushPrefab
+      value: 
+      objectReference: {fileID: 464424, guid: eeb15d9c49f848a409289e34834e1af2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: treePrefab
+      value: 
+      objectReference: {fileID: 479644, guid: 9b4de78851819714789a187270d331a9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: housePrefab
+      value: 
+      objectReference: {fileID: 437838, guid: f2ede741632f1eb4eb474cd406ffaf00, type: 2}
+    - target: {fileID: 0}
+      propertyPath: placeTree
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: placeBush
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: van
+      value: 
+      objectReference: {fileID: 176000, guid: 6040df82b702f9e4d9d2400846edc472, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.x
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: junctionWidth
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kerbPrefab
+      value: 
+      objectReference: {fileID: 454216, guid: 9adbe90f09d3b034a8cf41245a0f1074, type: 2}
+    - target: {fileID: 0}
+      propertyPath: kerbAmt
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kerbSizeX
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kerbSizeY
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kerbFrequency
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pointsFrequency
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Tilesize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: junctionFrequency
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: yScaler
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ySize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pavementLength
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pavementDepth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: volume.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: volume.z
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fillWithPoints
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: useSortedGeneration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: meshGenerator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: placeHouse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MapStartPosition.x
+      value: -2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MapStartPosition.y
+      value: -2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IgnoreTags.Array.data[0]
+      value: Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DisallowedTags.Array.data[0]
+      value: Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: HeuristicAggression
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: DrawMapInEditor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onlyAllowOwnGameObject
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: addTransformPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mainRoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MapEndPosition.x
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MapEndPosition.y
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CheckFullTileSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MoveDiagonal
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 168406}
+  m_IsPrefabParent: 1

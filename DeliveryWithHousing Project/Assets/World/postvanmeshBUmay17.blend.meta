@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: aa63deb9fb822b340a6820fee1b88895
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aerial
+    100002: Air_Vents
+    100004: Badge
+    100006: Body
+    100008: Body_MeshPart0
+    100010: Body_MeshPart1
+    100012: Bonnet_Hinge
+    100014: Bumpers
+    100016: Fog_Lights
+    100018: HeadLights
+    100020: HeadLights_Casing
+    100022: Indicator_front
+    100024: LHeadLights_Bulb
+    100026: NumberP
+    100028: //RootNode
+    100030: Window_Edges
+    100032: Window_Wipers
+    100034: WindShield
+    100036: Wing_mirror
+    400000: Aerial
+    400002: Air_Vents
+    400004: Badge
+    400006: Body
+    400008: Body_MeshPart0
+    400010: Body_MeshPart1
+    400012: Bonnet_Hinge
+    400014: Bumpers
+    400016: Fog_Lights
+    400018: HeadLights
+    400020: HeadLights_Casing
+    400022: Indicator_front
+    400024: LHeadLights_Bulb
+    400026: NumberP
+    400028: //RootNode
+    400030: Window_Edges
+    400032: Window_Wipers
+    400034: WindShield
+    400036: Wing_mirror
+    2300000: Aerial
+    2300002: Air_Vents
+    2300004: Badge
+    2300006: Body_MeshPart0
+    2300008: Body_MeshPart1
+    2300010: Bonnet_Hinge
+    2300012: Bumpers
+    2300014: Fog_Lights
+    2300016: HeadLights
+    2300018: HeadLights_Casing
+    2300020: Indicator_front
+    2300022: LHeadLights_Bulb
+    2300024: NumberP
+    2300026: Window_Edges
+    2300028: Window_Wipers
+    2300030: WindShield
+    2300032: Wing_mirror
+    3300000: Aerial
+    3300002: Air_Vents
+    3300004: Badge
+    3300006: Body_MeshPart0
+    3300008: Body_MeshPart1
+    3300010: Bonnet_Hinge
+    3300012: Bumpers
+    3300014: Fog_Lights
+    3300016: HeadLights
+    3300018: HeadLights_Casing
+    3300020: Indicator_front
+    3300022: LHeadLights_Bulb
+    3300024: NumberP
+    3300026: Window_Edges
+    3300028: Window_Wipers
+    3300030: WindShield
+    3300032: Wing_mirror
+    4300000: Window_Edges
+    4300002: Bonnet_Hinge
+    4300004: Air_Vents
+    4300006: Window_Wipers
+    4300008: Aerial
+    4300010: Wing_mirror
+    4300012: Badge
+    4300014: NumberP
+    4300016: Fog_Lights
+    4300018: LHeadLights_Bulb
+    4300020: HeadLights_Casing
+    4300022: Indicator_front
+    4300024: WindShield
+    4300026: Bumpers
+    4300028: HeadLights
+    4300030: Body_MeshPart0
+    4300032: Body_MeshPart1
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &122272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 460744}
+  - component: {fileID: 11476432}
+  m_Layer: 0
+  m_Name: Pathfinder
+  m_TagString: PathFinder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 435176}
+  - component: {fileID: 11403458}
+  m_Layer: 0
+  m_Name: StartGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &128204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474090}
+  - component: {fileID: 11401474}
+  m_Layer: 0
+  m_Name: ARoadBuilder
+  m_TagString: ARoadBuilder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &128356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 454850}
+  - component: {fileID: 11485464}
+  m_Layer: 0
+  m_Name: TerrainPlanes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &148816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 496728}
+  - component: {fileID: 11441864}
+  m_Layer: 0
+  m_Name: Verge
+  m_TagString: Verge
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &151200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 455906}
+  - component: {fileID: 11420998}
+  - component: {fileID: 11438080}
+  - component: {fileID: 11486906}
+  - component: {fileID: 11413936}
+  - component: {fileID: 11481838}
+  m_Layer: 0
+  m_Name: RoadDresser
+  m_TagString: Road Dresser
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &166576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 479100}
+  - component: {fileID: 11476066}
+  m_Layer: 0
+  m_Name: TreesAndBushes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &179988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 473580}
+  - component: {fileID: 11456664}
+  m_Layer: 0
+  m_Name: GridPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 283.68704, y: 33.125, z: 470.35397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &454850
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &455906
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &460744
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &473580
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: 0, z: 500}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &474090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 460744}
+  - {fileID: 473580}
+  - {fileID: 455906}
+  - {fileID: 496728}
+  - {fileID: 479100}
+  - {fileID: 454850}
+  - {fileID: 435176}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &479100
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &496728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474090}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11401474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6f2a07a2d57a04f934adbafd1466cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountOfTowns: 2
+  pathFinder: {fileID: 11476432}
+  gridPlayer: {fileID: 11456664}
+  curveInjector: {fileID: 11486906}
+  splineMesh: {fileID: 11413936}
+  verge: {fileID: 11441864}
+  placeAlongVerge: {fileID: 11476066}
+  terrainPlanes: {fileID: 11485464}
+  connectingARoad: {fileID: 460940, guid: b8f56d647841f1a45863a9eca26ff500, type: 2}
+  target: {x: 500, y: 0, z: 500}
+  instantiateARoad: 0
+--- !u!114 &11403458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125804}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de84fa1871ba9344abca1113d69b81c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  van: {fileID: 146538, guid: 6040df82b702f9e4d9d2400846edc472, type: 2}
+  tJunctionBuildings: {fileID: 0}
+--- !u!114 &11413936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151200}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f74fed4ced3c7b4ab430cb114d13c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCurveDensityMultiplier: 3
+  curveSmoothingAmount: 1
+  roadTotalWidth: 2
+  roadMeshSegmentWidth: 0
+  spline: {fileID: 11438080}
+  splineL: {fileID: 0}
+  splineR: {fileID: 0}
+  splineM: {fileID: 0}
+  newBezierL: {fileID: 0}
+  newBezierR: {fileID: 0}
+  frequency: 5000
+  gp: {fileID: 11456664}
+  lookForward: 0
+  raiseAmt: 0
+  items:
+  - {fileID: 0}
+  items2:
+  - {fileID: 0}
+  cube: {fileID: 454216, guid: 9adbe90f09d3b034a8cf41245a0f1074, type: 2}
+--- !u!114 &11420998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151200}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f939945657e2f8c4c852298051f2cac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSize: 1
+  spline: {fileID: 0}
+  frequency: 100
+  lookForward: 0
+  items:
+  - {fileID: 0}
+  items2: []
+--- !u!114 &11438080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: 3, y: 0, z: 6.998083}
+  - {x: 1, y: 0, z: 0}
+  modes: 0000000000000000
+  loop: 0
+--- !u!114 &11441864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148816}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f08f0ae0220f9438cfff0b83727826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isConnectingRoad: 0
+  myLayerMask:
+    m_Bits: 2048
+  cubePrefab: {fileID: 454216, guid: 9adbe90f09d3b034a8cf41245a0f1074, type: 2}
+  frequency: 5000
+  doCubes: 0
+  xSize: 5000
+  ySize: 5
+  yScaler: 0.5
+  lastRowListLeft: []
+  lastRowListRight: []
+  junctionIndexList: 
+  finished: 0
+--- !u!114 &11456664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179988}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7556af4d28d16c042adc12e26716559a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: []
+  PathType: 0
+  JS: 0
+  playerCam: {fileID: 0}
+  minimapCam: {fileID: 0}
+  bgStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: ba022163dfc79d3479cbda17623ef9c9, type: 3}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  target: {x: 900, y: 0, z: 500}
+  forRingRoad: 0
+--- !u!114 &11476066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166576}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c09e38f7faee18242a537b3093493196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HouseDensity: 300
+  treeFrequency: 20
+  bushFrequency: 3
+  frequency: 2000
+  kerbMesh: {fileID: 0}
+  placeBush: 1
+  placeTree: 1
+  placeHouse: 1
+  bushPrefab: {fileID: 464424, guid: eeb15d9c49f848a409289e34834e1af2, type: 2}
+  treePrefab: {fileID: 479644, guid: 9b4de78851819714789a187270d331a9, type: 2}
+  housePrefab: {fileID: 437838, guid: f2ede741632f1eb4eb474cd406ffaf00, type: 2}
+  isConnectingRoad: 0
+  frequencyMultiplier: 0.5
+--- !u!114 &11476432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4acf42fa4d81a498faec7fa36593cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addTransformPosition: 0
+  curveInj: {fileID: 11486906}
+  bRoadMesher: {fileID: 0}
+  TerrainPrefab: {fileID: 128602, guid: bc7c571819756074e94fa7c22057ec27, type: 2}
+  canReplaceTerrain: 1
+  Tilesize: 70
+  MaxFalldownHeight: 1
+  ClimbLimit: 1
+  HeuristicAggression: 100
+  HighestPoint: 500
+  LowestPoint: -500
+  MapStartPosition: {x: 0, y: 0}
+  MapEndPosition: {x: 1000, y: 1000}
+  onlyAllowOwnGameObject: 0
+  DisallowedTags:
+  - Water
+  IgnoreTags: []
+  MoveDiagonal: 1
+  DrawMapInEditor: 0
+  CheckFullTileSize: 1
+--- !u!114 &11481838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151200}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876da575f278a8743925d4674006755a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11485464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128356}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aab7b08e6da76d48bfd6cf0e2e8ea06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isJoiningRoad: 0
+  xSize: 200
+  ySize: 200
+  scaleAmt: 0.1
+  planeFrequency: 2000
+  myLayerMask:
+    m_Bits: 512
+  myLayerMask2:
+    m_Bits: 1024
+  myLayerMask3:
+    m_Bits: 2048
+  scriptFinished: 0
+  frequencyMultiplier: 0.5
+--- !u!114 &11486906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151200}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c532cfd5c5ff9654fa0eb6123ef03945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bezier: {fileID: 11438080}
+  addV3: {x: 0, y: 0, z: 0}
+  list: []
+  raiseAmt: 0
+  add: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: housePrefab
+      value: 
+      objectReference: {fileID: 437838, guid: f2ede741632f1eb4eb474cd406ffaf00, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 128204}
+  m_IsPrefabParent: 1

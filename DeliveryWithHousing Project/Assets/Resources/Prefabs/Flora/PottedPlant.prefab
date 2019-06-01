@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &172326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 403142}
+  - component: {fileID: 2323326}
+  - component: {fileID: 3313746}
+  - component: {fileID: 11442438}
+  - component: {fileID: 11416456}
+  - component: {fileID: 11484996}
+  - component: {fileID: 11446334}
+  - component: {fileID: 6514254}
+  m_Layer: 0
+  m_Name: PottedPlant
+  m_TagString: Flora
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403142
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2323326
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 40ba3e7be48a1ea41adafea1525e0208, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &3313746
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Mesh: {fileID: 0}
+--- !u!65 &6514254
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11416456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab30033311af4c428d931b86b9d63dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tubeHeightMin: 0.1
+  tubeHeightMax: 0.5
+  topRadiusMin: 0.1
+  topRadiusMax: 0.25
+  bottomRadiusReduceMin: 0.5
+  bottomRadiusReduceMax: 1.2
+  tubeSidesMin: 3
+  tubeSidesMax: 20
+  potThicknessMin: 0.01
+  potThicknessMax: 0.05
+  potThickness: 0
+  makeRectangle: 0
+  topRadius1: 0
+  height: 0
+--- !u!114 &11442438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93bc5213e6b1d049a6172977221428d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stems: 2
+  stemsFinished: 0
+  roses: 0
+  tulips: 0
+  bonzai: 0
+  shrub: 0
+  gardenTree: 0
+  cabbage: 0
+  addPot: 0
+  flowerMaterial: {fileID: 0}
+  leavesMaterial: {fileID: 0}
+  leafPrefab: {fileID: 0}
+  rosePrefab: {fileID: 0}
+  leavesPositions: []
+  rosesPositions: []
+  branchPositions: []
+  gardenTreeRadius: 0
+  intendedPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &11446334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f826a0e66c1387b4e9e90d92d5b42b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeIco: 0
+  rosePrefab: {fileID: 0}
+  leafPrefab: {fileID: 0}
+  leavesList: []
+  rosesList: []
+  materials: []
+  isTree: 0
+  leavesUpStem: 0
+  renderBranches: 0
+  addRoses: 0
+  branchesStarted: 0
+  branchesEnded: 0
+  isBuilding: 0
+  shrub: 0
+  gardenTree: 0
+  trunkLength: 10
+  Seed: 0
+  MaxNumVertices: 27571
+  NumberOfSides: 3
+  BaseRadius: 0.25
+  RadiusStep: 0.9
+  MinimumRadius: 0.02
+  BranchRoundness: 0.8
+  SegmentLength: 0.5
+  Twisting: 20
+  BranchProbability: 0.1
+  checksumSerialized: 0
+--- !u!114 &11484996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172326}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c557901edbbd454d9f3fb066537c73c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomise: 0
+  leafNumber: 4
+  leafDetailAmount: 12
+  radius: 5
+  zStretch: 1
+  randomRangeForLeafSize: 0.2
+  render: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: shrub
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: roses
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 172326}
+  m_IsPrefabParent: 1
